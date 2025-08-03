@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <!-- Modular CSS Files from STYLES folder -->
+  <link rel="stylesheet" href="STYLES/general.css" />
+  <link rel="stylesheet" href="STYLES/home.css" />
+  <link rel="stylesheet" href="STYLES/about.css" />
+  <link rel="stylesheet" href="STYLES/education.css" />
+  <link rel="stylesheet" href="STYLES/projects.css" />
+  <link rel="stylesheet" href="STYLES/skills.css" />
+  <link rel="stylesheet" href="STYLES/interests.css" />
+  <link rel="stylesheet" href="STYLES/languages.css" />
+  <link rel="stylesheet" href="STYLES/contact.css" />
+  
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+  <nav class="navbar">
+    <div class="logo">Martin Kinyua</div>
+
+    <!-- Hamburger Toggle -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#languages">Languages</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <!-- Home Section -->
+  <section id="home" class="section home">
+    <div class="home-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Aspiring Engineer | Problem Solver | Innovator</p>
+    </div>
+  </section>
+
+ <!-- About Section -->
+<section id="about" class="section about">
+  <h2>About Me</h2>
+  <div class="content">
+    <img src="IMAGES/DEGREE.jpg" alt="Your Photo" class="profile-pic" />
+    <p>
+I am a Mechatronic Engineering graduate with a foundation in electromechanical systems, control systems, and instrumentation. I have hands-on experience developing embedded systems, including a wind tunnel test section project implemented in C++, and I possess working knowledge of Python for data handling and automation tasks. I take a practical, problem-solving approach to engineering challenges and enjoy building solutions that blend hardware and software seamlessly. My curiosity and adaptability drive me to continuously learn and contribute effectively in dynamic technical environments.
+    </p>
+  </div>
+</section>
+
+
+<!-- Education Section -->
+<section id="education" class="section education">
+  <h2>Education</h2>
+  <div class="education-grid">
+    <div class="education-card">
+      <h3>Jomo Kenyatta University of Agriculture and Technology</h3>
+      <p>Degree: Mechatronics Engineering</p>
+    </div>
+    <div class="education-card">
+      <h3>Power Learn Project</h3>
+      <p>Software Development</p>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section projects">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    
+    <!-- Project 1 -->
+    <div class="project">
+      <div class="project-content">
+        <h3>Theft detection device</h3>
+        <details class="project-details">
+          <summary>
+            This is a compact, battery-powered theft detection device designed to bring peace of mind...
+          </summary>
+          <p>
+            This is a compact, battery-powered theft detection device designed to bring peace of mind to homeowners, shopkeepers, and small businesses by instantly alerting you when someone tries to break in...
+          </p>
+        </details>
+      </div>
+      <img src="IMAGES/TheftDetection_background.png" alt="Theft Detection" class="project-media" />
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project">
+      <div class="project-content">
+        <h3>Wind tunnel test section</h3>
+        <details class="project-details">
+          <summary>
+            This project showcases a custom-built wind tunnel system designed to bring aerodynamic testing to life...
+          </summary>
+          <p>
+            This project showcases a custom-built wind tunnel system designed to bring aerodynamic testing to life. It allows users to simulate and observe how air interacts with objects in motion...
+          </p>
+        </details>
+      </div>
+      <video class="project-media" controls>
+        <source src="VIDEOS/AGS VIDEO.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Skills Section -->
+<section id="skills" class="section skills">
+  <div class="skills-header">
+    <div>
+      <h2>Discover My Top Skills and Expertise</h2>
+    </div>
+    <p>
+I have practical experience in mechanical design and web development. Using SolidWorks and Autodesk Inventor, I can model parts, create assemblies, and run simulations such as motion and stress analysis to ensure reliable performance. I’m also skilled in web development, with knowledge of HTML, CSS, and JavaScript for building responsive and user-friendly websites. This combination of skills allows me to contribute to both physical product development and digital solutions. I enjoy working on projects that integrate hardware and software, such as IoT systems or mechatronics, where I can apply both my design and programming expertise effectively.
+    </p>
+  </div>
+
+  <div class="skills-grid">
+    <div class="skill-card">
+      <span class="skill-icon">🖐️</span>
+      <h3>Proficient in Mechanical <br>Design and Simulation</h3>
+      <p>I excel in creating and testing 3D models using CAD tools.
+
+</p>
+    </div>
+    <div class="skill-card">
+      <span class="skill-icon">🔲</span>
+      <h3>Proficient in Web <br>Development</h3>
+      <p>I build responsive, user-friendly websites using modern development frameworks.
+
+</p>
+    </div>
+    <div class="skill-card">
+      <span class="skill-icon">⚙️</span>
+      <h3>Proficient in Integrated <br>Systems</h3>
+      <p>I combine hardware and software to develop smart engineering solutions.
+
+</p>
+    </div>
+  </div>
+</section>
+
+
+ <!-- Interests Section -->
+<section id="interests" class="section interests">
+  <h2>Interests</h2>
+  <div class="interests-grid">
+    <div class="interest-card">Software Development</div>
+    <div class="interest-card">Full Stack Engineering</div>
+    <div class="interest-card">Databases</div>
+    <div class="interest-card">Embedded Systems</div>
+    <div class="interest-card">IoT Integration</div>
+  </div>
+</section>
+
+<!-- Languages Section -->
+<section id="languages" class="section languages">
+  <h2>Languages</h2>
+  <div class="languages-grid">
+    <div class="language-card">English – Fluent</div>
+    <div class="language-card">Swahili – Native</div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section contact">
+  <h2>Contact Me</h2>
+  
+  <!-- Address -->
+  <p class="contact-address">📍 Nairobi, Kenya</p>
+    <!-- Contact Info -->
+  <div class="contact-info">
+    <p>📞 <strong>+254 708 244 593</strong></p>
+    <p>✉️ <strong>kinyuam047@gmail.com</strong></p>
+  </div>
+
+<!-- Contact Form -->
+<form class="contact-form">
+  <input type="text" placeholder="Your Name" required />
+  <input type="email" placeholder="Your Email" required />
+  <textarea placeholder="Your Message" required></textarea>
+  <button type="submit">Send</button>
+</form>
+
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Martin Kinyua. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

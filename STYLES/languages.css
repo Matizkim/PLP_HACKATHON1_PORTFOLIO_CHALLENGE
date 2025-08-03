@@ -1,0 +1,33 @@
+
+
+/* Languages Section */
+.languages {
+  background-color: #e0e0e0; /* soft gray */
+  border-radius: 10px;
+}
+
+.languages h2 {
+  color: #0e0e52;
+  text-align: center;
+}
+
+.languages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.language-card {
+  background-color: #1abc9c; /* turquoise */
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.language-card:hover {
+  transform: translateY(-5px);
+}

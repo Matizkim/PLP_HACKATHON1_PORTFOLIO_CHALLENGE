@@ -1,0 +1,39 @@
+.about h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #0e0e52;
+  padding: 2rem;
+  border-radius: 10px;
+  color: white;
+  gap: 2rem;
+  flex-wrap: nowrap;
+}
+
+/* Already exists but enhance readability */
+.about .content p {
+  flex: 1;
+  font-size: 1.1rem;
+  min-width: 0;
+  line-height: 1.6;
+}
+
+
+.about img.profile-pic {
+  width: 180px;
+  height: auto;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.about .content p {
+  flex: 1;
+  font-size: 1.1rem;
+  min-width: 0; /* prevent overflow issues */
+}
+

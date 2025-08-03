@@ -10,14 +10,12 @@ Welcome to my **personal portfolio website** — a clean, responsive one-page si
 
 📌 https://matizkim.github.io/PLP_HACKATHON1_PORTFOLIO_CHALLENGE/
 
-> Replace the URL with your actual GitHub Pages link once it's deployed.
-
 ---
 
 ## 📁 Project Structure
 
 ```
-📁 your-repo-name/
+📁 PLP_HACKATHON1_PORTFOLIO_CHALLENGE/
 │
 ├── index.html               → Main webpage file
 ├── README.md                → This file

@@ -1,7 +1,3 @@
-Great! Since you're uploading the portfolio to **GitHub Pages**, here’s a revised `README.md` with beginner-friendly instructions specifically for GitHub Pages deployment.
-
----
-
 ## 💼 Personal Portfolio Website
 
 Welcome to my **personal portfolio website** — a clean, responsive one-page site built with **HTML and CSS only**. This website is designed to showcase who I am, what I’ve worked on, and how to reach me.
